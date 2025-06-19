@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  scroll-behavior: smooth;
+}
+header.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #003366, #006699);
+}
+.nav-buttons button {
+  margin: 10px;
+}
+main {
+  padding: 20px;
+}
+button {
+  background-color: #00aaff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #008ecc;
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #000;
+  color: #aaa;
+  font-size: 14px;
+}
